@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../css/style.css" type="text/css"> -->
+    <title>INDEX</title>
+</head>
+<body>
+        
+        <nav>
+            <div class="logo">
+                <a href="index.html">Home</a>
+            </div>
+            <ul>
+                <li><a href="../media/naruto.html">Naruto</a></li>
+                <li><a href="../media/sasuke.html">Sasuke</a></li>
+                <li><a href="../media/sakura.html">Sakura</a></li>
+                <li><a href="../media/kakashi.html">Kakashi</a></li>
+            </ul>
+            <div class="menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+        </nav>
+        <h1>Hello!</h1>
+        <p id="leaf">
+           welcome to the hidden leaf village.
+        </p>
+        <div class="intro">
+            <b>*****You are going to know about team 7*****</b>
+        </div>
+      
+        
+        <br>
+        <!-- <hr><hr> -->
+        <!-- <h2>our  members qualifications</h2>
+        <p>These guys are so Amazing</p>
+         <dfn><span id>In this members,</span>how they are all going survive in this leaf village</dfn> 
+        <p>These people didn't know about "what is going in the village</p>
+        <p>let's see their name and family and now we are going to see their life style <br>
+             How they are going to become friends?</p> -->
+        <div id="mem">
+            <div id="mem1"><p1>FAMOUS MEMBERS***</p1>
+            </div><br>
+        
+        <br>
+        <div id="mem2">
+        <dl>
+            <div id="nu">
+            <dt>1.NARUTO UZUMAKI</dt>
+            <br>
+            <dd>I am naruto uzumaki. I am the seventh hokage of  leaf village and I am the friend of SASUKE</dd>
+            <br>
+            </div>
+            <br>
+            <br>
+            <div id="su">
+            <br>
+            <dt>2.SASUKE UCHIHA</dt>
+            <br>
+            <dd>I am sasuke uchiha. I am the friend of seventh hokage and little brother of ITACHI UCHIHA<br>
+            I am the one who have mangekyo  sharingan like Indra otsutsuki</dd>
+            </div>
+            <br>
+            <br>
+            <div id="kh">
+            <br>
+            <dt>3.KAKASHI HATAKE</dt><br>
+            <dd>I am kakashi hatake.I am sensei of team 7. My Friends are dead in my hands for some reason.<br>
+            My speciality is to be a cool person. My hair is in white colour.
+            I hide my left eye to hide my sharingan for my chakra control.</dd>
+            <br>
+            </div>
+            <br>
+            <br>
+            <div id="sa">
+            <dt>4.SAKURA</dt><br>
+            <dd>I am sakura haruno. I am the girl friend of sasuke and friend of naruto.I am student of kakashi sensei and tsunade.<br>
+            I am the one who has the strongest hand in my team.</dd><br>
+            <dt></dt>
+            </div>
+        </dl>
+        </div>
+        </div>
+        <h3>UNSEEN HOKAGE</h3>
+        <ol>
+            <li>Hashirama</li>
+            <li>Tobirama</li>
+            <li>Sarutobi</li>
+            <li>Minato</li>
+        </ol>
+        <h3>SEEN HOKAGE</h3>
+        <ol>
+            
+            <li>Tsunade</li>
+            <li>Kakashi</li>
+            <li>Naruto </li>
+        </ol>
+        <h3 id="one">VILLANCE</h3>
+        <ol>
+            <li>Kaguya</li>
+            <li>Madara</li>
+            <li>Itachi</li>
+            <li>Obito</li>
+            <li>Pain</li>
+            
+        </ol>
+        <br>
+        <!-- <iframe src="form.html" frameborder="0"></iframe><br> -->
+        <!-- <audio controls preload="metadata">
+            <source src="media/mudhar kanave bgm.mp3">mudhar kanave
+        </audio><br><br>
+        <label>VIDEO:</label>
+        <video src="media/lut gaye.mp4" width="1000" height="1000" type="video/mp4" controls><br></video>
+        <p>&copy</p>
+        <a href="https://youtu.be/Bn_J_NrqbM4">I learn a html in this video</a> -->
+    </body>
+    <script>
+        const menu=document.querySelector('.menu')
+        const menulist=document.querySelector('nav ul')
+        menu.addEventListener('click',()=>{
+            menulist.classList.toggle('showmenu')
+        })
+    </script>
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+
+}
+#leaf{
+    color:5px solid black;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color:5px solid black ;
+}
+.intro{
+    color: 5px solid black;
+}
+/*class selecttor*/
+.leaf{
+    color:blue;
+}
+/*child selector*/
+div>p{
+    color:orangered;
+}
+/* descendant selector*/
+div a{
+    color:blue;
+}
+div h2{
+    margin-right:70%;
+    background-color: rgb(82, 152, 231);
+    border-radius:10px;
+    text-indent: 30px;
+   
+}
+h3{
+    display: flex;
+    margin-right:70%;
+    background-color: brown;
+    border-radius:10px;
+    text-indent: 30px;
+    color: white;
+}
+#one{
+    margin-right:75%;
+    background-color:brown;
+    border-radius:8px;
+    text-indent:auto;
+}
+#mem{
+    color: white;
+    display:block;
+    background-color:  rgb(82, 152, 231);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px gray; 
+    padding: 50px;
+    
+}
+#mem1 p1{
+    text-indent: 10px;
+    color:white;
+    
+}
+/* #mem {
+    color: white;
+} */
+#mem2 dd{
+    color: white;
+}
+#mem2 dt{
+    color: white;
+}
+#nu{
+    background-color: orange;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 20px white;
+}
+#su{
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 20px white;
+}
+#kh{
+    background-color:green;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 20px white;
+}
+#sa{
+    background-color: pink;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 20px white;
+}
+.intro{
+    text-align: center;
+}
+nav{
+    background-color:blanchedalmond;
+    font-size:25px ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+nav li{
+    display: inline-block;
+    margin: 0px 8px;  
+    color: black;  
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.logo a{
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+}
+nav a:hover{
+    color:gray;
+
+}
+.line{
+    height: 3px;
+    width: 20px;
+    background-color: black;
+    margin-bottom: 3px;
+}
+.menu{
+    cursor: pointer;
+    display: none;
+}
+@media all and (max-width:517px){
+    nav{
+        flex-direction:column ;
+    }
+    nav li{
+        display: block;
+        padding: 10px 0;
+    }
+    ul{
+        text-align: center;
+        padding: 0;
+        display: none;
+
+    }
+    .logo{
+        align-self: flex-start;
+        margin: 10px 0px 0px 20px;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top:25px ;
+    }
+    .showmenu{
+        display: block;
+    }
+}
+    </style>
+</html>

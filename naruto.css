@@ -1,0 +1,38 @@
+/* *{
+    display: block;
+} */
+body{
+    display:block;
+}
+.naru h1{
+    font-size:20px;
+    /* margin-right:50px; */
+    background-color:orange;
+    margin-right:300px;
+    border-radius:10px;
+    /* text-indent: 30px; */
+    /* display: block; */
+    padding:10px;
+    /* display:flex; */
+    color:white;
+}
+b{
+    font-size:30px;
+}
+#para{
+    background-color:beige;
+    padding:20px;
+    border-radius:20px;
+}
+#doubt{
+    font-size:2px;
+}
+#doubt p{
+    font-size: 10px;
+}
+img{
+    height: 150px;   
+    width:300px;
+    border-radius: 20px;
+ 
+}
